@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/mainArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/card_view_23_white_shadow"
+        android:minHeight="@dimen/_80sdp"
+        android:orientation="horizontal">
+
+        <com.view.SelectableRoundedImageView
+            android:id="@+id/listImage"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            app:srcCompat="@drawable/ic_group"
+            app:sriv_left_bottom_corner_radius="@dimen/_7sdp"
+            app:sriv_left_top_corner_radius="@dimen/_7sdp"
+            app:sriv_oval="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <com.view.MTextView
+                android:id="@+id/titleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text23Pro_Dark"
+                android:textSize="@dimen/_12ssp"
+                app:customTypeFace="@string/system_bold"
+                tools:text="dfsdg hfgsdfg sddgh fjsdghfsd fjsdgfbf gdfgdsgfjhsdgf sdfsdhfsd fgshfgweruyg egfeghb" />
+
+            <com.view.MTextView
+                android:id="@+id/descriptionTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textSub23Pro_gray"
+                android:textSize="@dimen/_11ssp"
+                app:customTypeFace="@string/system_regular"
+                tools:text="dfsdg hfgsdfg sddgh fjsdghfsd fjsdgfbf gdfgdsg sfdsafsdf fsdfsdfsdfsfrwer fjhsdgf sdfsdhfsd fgshfgweruyg egfeghb" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

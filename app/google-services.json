@@ -1,0 +1,191 @@
+{
+  "project_info": {
+    "project_number": "53888023937",
+    "firebase_url": "https://vsystem-tiktak24-default-rtdb.firebaseio.com",
+    "project_id": "vsystem-tiktak24",
+    "storage_bucket": "vsystem-tiktak24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53888023937:android:ba5e9d1927c03faa3c3c80",
+        "android_client_info": {
+          "package_name": "com.tiktak24.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53888023937-98iltev936kbg61qjp1lim3odg0qaptu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.driver",
+            "certificate_hash": "8950d823c6c0b30ec321c0c85689fd8505888f28"
+          }
+        },
+        {
+          "client_id": "53888023937-if9r13sfh5png4eoa0l8r1k6kd6ablfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.driver",
+            "certificate_hash": "b1a32baed2382c1c3bd13c787e4b893fd1ffb855"
+          }
+        },
+        {
+          "client_id": "53888023937-s1uov4e9sgl2g6ge38g0rlrv6uf4v85j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.driver",
+            "certificate_hash": "3e73b1a747e29804c207edb192b350b6ca13ff50"
+          }
+        },
+        {
+          "client_id": "53888023937-gpfvr7nre5t3b12caci15jsfsf78h4f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgy5jQqmz6MRzVILkw7tZfNtKS0Isn-nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53888023937-gpfvr7nre5t3b12caci15jsfsf78h4f3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53888023937-e0p29mj38pn5g6gmi1f7cm931c1bjpb2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tiktak24.user"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53888023937:android:6f634df08da5b9ef3c3c80",
+        "android_client_info": {
+          "package_name": "com.tiktak24.kiosk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53888023937-6d3v6oqmtijrlmekqiss8n231lgevhcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.kiosk",
+            "certificate_hash": "8950d823c6c0b30ec321c0c85689fd8505888f28"
+          }
+        },
+        {
+          "client_id": "53888023937-cl56f6rkj8ofetatcbu2iq8jf04h814e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.kiosk",
+            "certificate_hash": "3e73b1a747e29804c207edb192b350b6ca13ff50"
+          }
+        },
+        {
+          "client_id": "53888023937-f20559sfmh1gapc1qsdgl0rq3c86c6a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.kiosk",
+            "certificate_hash": "b1a32baed2382c1c3bd13c787e4b893fd1ffb855"
+          }
+        },
+        {
+          "client_id": "53888023937-gpfvr7nre5t3b12caci15jsfsf78h4f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgy5jQqmz6MRzVILkw7tZfNtKS0Isn-nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53888023937-gpfvr7nre5t3b12caci15jsfsf78h4f3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53888023937-e0p29mj38pn5g6gmi1f7cm931c1bjpb2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tiktak24.user"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53888023937:android:6e1a2e2a2858f2033c3c80",
+        "android_client_info": {
+          "package_name": "com.tiktak24.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53888023937-5okfmn4mobpm0g9btrgj88a4opdi4q4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.user",
+            "certificate_hash": "3e73b1a747e29804c207edb192b350b6ca13ff50"
+          }
+        },
+        {
+          "client_id": "53888023937-k6p1tjfkui10dbvhglttoroa8asbd7f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.user",
+            "certificate_hash": "8950d823c6c0b30ec321c0c85689fd8505888f28"
+          }
+        },
+        {
+          "client_id": "53888023937-ki19gtfgqpam4p8au44eeq91rljjb76t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiktak24.user",
+            "certificate_hash": "b1a32baed2382c1c3bd13c787e4b893fd1ffb855"
+          }
+        },
+        {
+          "client_id": "53888023937-gpfvr7nre5t3b12caci15jsfsf78h4f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgy5jQqmz6MRzVILkw7tZfNtKS0Isn-nA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53888023937-gpfvr7nre5t3b12caci15jsfsf78h4f3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53888023937-e0p29mj38pn5g6gmi1f7cm931c1bjpb2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tiktak24.user"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

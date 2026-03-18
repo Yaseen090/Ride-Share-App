@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar_include"
+        layout="@layout/design_toolbar_general" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_include"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ic_contacus" />
+
+                <com.view.MTextView
+                    android:id="@+id/subheaderTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="@dimen/_18ssp"
+                    app:customTypeFace="@string/system_semi_bold" />
+
+                <com.view.MTextView
+                    android:id="@+id/detailTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:textColor="@color/eme_txt_color"
+                    android:textSize="@dimen/_12ssp"
+                    app:customTypeFace="@string/system_regular" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/card_view_23_gray_shadow"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <com.view.MTextView
+                        android:id="@+id/floatingLabel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAlignment="viewStart"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp"
+                        app:customTypeFace="@string/system_semi_bold" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/card_view_23_white_shadow">
+
+                        <com.view.editBox.MaterialEditText
+                            android:id="@+id/subjectBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_3sdp"
+                            android:imeOptions="actionNext"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13ssp"
+                            app:customTypeFace="@string/system_regular"
+                            app:met_hideUnderline="true" />
+                    </RelativeLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/subjectBox_error"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Field is required."
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/_10sdp"
+                        android:visibility="invisible"
+                        app:customTypeFace="@string/system_light" />
+
+                    <com.view.MTextView
+                        android:id="@+id/floatingLabel2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp"
+                        app:customTypeFace="@string/system_semi_bold" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/card_view_23_white_shadow">
+
+                        <com.view.editBox.MaterialEditText
+                            android:id="@+id/contentBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_marginEnd="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_3sdp"
+                            android:imeOptions="actionNext"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13ssp"
+                            app:customTypeFace="@string/system_regular"
+                            app:met_hideUnderline="true" />
+                    </RelativeLayout>
+
+                    <com.view.MTextView
+                        android:id="@+id/contentBox_error"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Field is required."
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/_10sdp"
+                        android:visibility="invisible"
+                        app:customTypeFace="@string/system_light" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp">
+
+                        <include
+                            android:id="@+id/btn_type2"
+                            layout="@layout/btn_type_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/all_btn_height" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

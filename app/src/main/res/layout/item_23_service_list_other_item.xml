@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/mainArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@+id/imgBgArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/serviceImg"
+                    android:layout_width="@dimen/_85sdp"
+                    android:layout_height="@dimen/_85sdp"
+                    app:srcCompat="@drawable/ic_group" />
+            </LinearLayout>
+
+            <com.view.MTextView
+                android:id="@+id/serviceTitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                app:customTypeFace="@string/system_semi_bold"
+                tools:text="dfsdfsdfsdf  rddg fe ds fbsjdf gdsfgsd fe reiure r fff " />
+
+            <com.view.MTextView
+                android:id="@+id/serviceSubTitleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:ellipsize="end"
+                android:lines="2"
+                android:maxLines="2"
+                android:textColor="#9C9898"
+                android:textSize="@dimen/_8ssp"
+                app:customTypeFace="@string/system_regular"
+                tools:text="dfsdfsdfsdf  rddg fe ds fbsjdf gdsfgsd fe reiure r fff " />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/itemArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_view_23_white_shadow"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/carImg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_145sdp"
+            android:background="@color/view23ProBG"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:layout_marginEnd="@dimen/_11sdp"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:id="@+id/carName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/text23Pro_Dark"
+                android:textSize="@dimen/_14ssp"
+                app:customTypeFace="@string/system_semi_bold"
+                tools:text="Hyundai / Verna" />
+
+            <com.view.MTextView
+                android:id="@+id/carSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text23Pro_Light"
+                android:textSize="@dimen/_10ssp"
+                app:customTypeFace="@string/system_regular"
+                tools:text="Small" />
+
+
+        </LinearLayout>
+
+        <com.view.MTextView
+            android:id="@+id/carNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:textColor="@color/text23Pro_Light"
+            android:textSize="@dimen/_10ssp"
+            app:customTypeFace="@string/system_regular"
+            tools:text="WB 06 F 5986" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_11sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_23sdp"
+                android:background="@drawable/border_fill"
+                android:backgroundTint="@color/delete_btn_Red"
+                android:gravity="center"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_9ssp"
+                app:customTypeFace="@string/system_semi_bold"
+                tools:text="Delete" />
+
+            <com.view.MTextView
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_23sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:background="@drawable/border_fill"
+                android:gravity="center"
+                android:paddingStart="@dimen/_23sdp"
+                android:paddingEnd="@dimen/_23sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_9ssp"
+                app:customTypeFace="@string/system_semi_bold"
+                tools:text="Edit" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

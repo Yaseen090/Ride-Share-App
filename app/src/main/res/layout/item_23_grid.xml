@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:id="@+id/mainArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <com.view.SelectableRoundedImageView
+                android:id="@+id/gridImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_group"
+                app:sriv_left_bottom_corner_radius="@dimen/_7sdp"
+                app:sriv_left_top_corner_radius="@dimen/_7sdp"
+                app:sriv_oval="false"
+                app:sriv_right_bottom_corner_radius="@dimen/_7sdp"
+                app:sriv_right_top_corner_radius="@dimen/_7sdp" />
+
+            <com.view.MTextView
+                android:id="@+id/txtCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:ellipsize="end"
+                android:ems="2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                app:customTypeFace="@string/system_bold"
+                tools:text="@string/app_name"
+                tools:textColor="@color/red" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

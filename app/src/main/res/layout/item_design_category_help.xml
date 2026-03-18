@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <com.view.MTextView
+                android:id="@+id/detailsTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:textAlignment="viewStart"
+                android:textColor="@color/text23Pro_Dark"
+                android:textSize="@dimen/_12sdp"
+                app:customTypeFace="@string/system_medium" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imageArrow"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_gravity="end|center_vertical"
+                app:srcCompat="@drawable/ic_arrow_point_to_down"
+                app:tint="@color/text23Pro_Light" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/seperationLine"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/view23ProBG" />
+    </LinearLayout>
+</layout>
